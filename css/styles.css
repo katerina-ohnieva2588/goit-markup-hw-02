@@ -110,7 +110,7 @@ a {
     color: #434455;
 }
 
-.team {
+.our-team {
     background-color: #f4f4fd;
 }
 
@@ -119,9 +119,13 @@ a {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    text-align: center;
-    color: #2e2f42; }
+    text-transform: capitalize
+    color #2e2f42; 
+}
 
+.team-title-list {
+    background-color: #FFFFFF;
+}
 
 .team-add-title {
     font-weight:  500;
@@ -140,11 +144,11 @@ a {
 
 
 .portfolio-title {
-    font-size: 36px;
-    line-height:  1.11;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2e2f42;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: #2e2f42;
 }
 
 
