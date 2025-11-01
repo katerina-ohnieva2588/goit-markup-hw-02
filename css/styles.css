@@ -9,7 +9,8 @@ body {
     background-color: #fff;
 }
  
-ul, li {
+ul, 
+ol {
     list-style-type: none;
 }
 
@@ -69,7 +70,7 @@ a {
     letter-spacing: 0.02em;
     color: #fff;
     text-align: center;
-    background: #2E2F42;
+    background-color: #2E2F42;
 }
 
 .button {
@@ -87,14 +88,17 @@ a {
     background-color:#404bbf;
 }
  
-.section {
+.title {
     background-color: #fff; 
 }
 
-.section-list-item {
+.section-title{
     background-color: #fff;
 }
 
+.section-list {
+    list-style-type: none;
+}
 
 .section-add-title {
     font-weight: 500;
@@ -124,11 +128,12 @@ a {
 
 
 .team-title {
-    font-weight: 700;
     font-size: 36px;
-    line-height: 1.1;
+    line-height: 1.11;
     letter-spacing: 0.02em;
+    text-align: center;
     color: #2e2f42; }
+
 
 .team-add-title {
     font-weight:  500;
@@ -145,21 +150,18 @@ a {
     color: #434455;
 }
 
-.portfolio {
+.portfolio .portfolio-list-item {
     background-color: #fff;
 }
 .portfolio-title {
-    font-weight: 700;
     font-size: 36px;
     line-height:  1.11;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
     color: #2e2f42;
 }
 
-.portfolio-list,
-.portfolio-list-item {
-    background-color: #fff;
-}
+
 .portfolio-add-title {
     font-weight: 500;
     font-size:  20px;
