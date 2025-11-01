@@ -69,7 +69,7 @@ a {
     line-height: 1.07143;
     letter-spacing: 0.02em;
     color: #fff;
-    background: #2e2f42;
+    background-color: #2E2F42;
 }
 
 .button {
@@ -82,11 +82,17 @@ a {
     cursor: pointer;
 }
 
-.button:hover {
+.button:hover,
+.button:focus {
     background-color:#404bbf;
 }
-.button:focus {
-    background-color: #4d5ae5;
+ 
+.section {
+    background-color: #fff; 
+}
+
+.section-list-item {
+    background-color: #fff;
 }
 
 
@@ -95,7 +101,7 @@ a {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color:  #2e2f42;
 }
 
 .section-description {
@@ -110,6 +116,13 @@ a {
 .team {
     background-color: #f4f4fd;
 }
+
+.team-list {
+    background-color: #f4f4fd;
+}
+
+
+
 .team-title {
     font-weight: 700;
     font-size: 36px;
@@ -117,11 +130,8 @@ a {
     letter-spacing: 0.02em;
     color: #2e2f42; }
 
-
-
-
 .team-add-title {
-    font-weight: 500;
+    font-weight:  500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -141,15 +151,18 @@ a {
 .portfolio-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height:  1.11;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
 
-
+.portfolio-list,
+.portfolio-list-item {
+    background-color: #fff;
+}
 .portfolio-add-title {
     font-weight: 500;
-    font-size: 20px;
+    font-size:  20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
@@ -163,12 +176,12 @@ a {
     color: #434455;}
 
 .footer-description {
-    font-family: Raleway;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #f4f4fd;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #f4f4fd;
 }
 .page-footer {
     background-color: #2e2f42;
