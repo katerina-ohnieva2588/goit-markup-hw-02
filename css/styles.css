@@ -63,6 +63,10 @@ a {
     color: #404bbf;
 }
 
+.section-hero {
+    background-color: #2E2F42;
+}
+
 .title-hero {
     font-weight: 700;
     font-size: 56px;
@@ -70,7 +74,7 @@ a {
     letter-spacing: 0.02em;
     color: #fff;
     text-align: center;
-    background-color:#2E2F42;
+    
 }
 
 .button {
@@ -88,17 +92,6 @@ a {
     background-color:#404bbf;
 }
  
-.title {
-    background-color: #fff; 
-}
-
-.section-title{
-    background-color: #fff;
-}
-
-.section-list {
-    list-style-type: none;
-}
 
 .section-add-title {
     font-weight: 500;
@@ -120,11 +113,6 @@ a {
 .team {
     background-color: #f4f4fd;
 }
-
-.team-list {
-    background-color: #f4f4fd;
-}
-
 
 
 .team-title {
@@ -150,9 +138,7 @@ a {
     color: #434455;
 }
 
-.portfolio .portfolio-list-item {
-    background-color: #fff;
-}
+
 .portfolio-title {
     font-size: 36px;
     line-height:  1.11;
